@@ -1,0 +1,30 @@
+{
+  "name": "busca_perfil_ts",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para estudos - curso Desenvolvimento Back-end SCTec",
+  "homepage": "https://github.com/ailemsnt/busca_perfil_ts#readme",
+  "bugs": {
+    "url": "https://github.com/ailemsnt/busca_perfil_ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ailemsnt/busca_perfil_ts.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node dist/main.js",
+    "dev": "node --watch dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.19",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

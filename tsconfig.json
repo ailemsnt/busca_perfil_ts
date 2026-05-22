@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* --- Módulos e Destino --- */
+    "target": "ES2025",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* --- Diretórios --- */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* --- Tipos (obrigatório no TypeScript 6) --- */
+    "types": ["node"],
+
+    /* --- Qualidade de Código (agora true por padrão) --- */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* --- Interoperabilidade ESM / CJS --- */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* --- Qualidade de Build --- */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+
+    /* --- Source Maps (útil para debug) --- */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
